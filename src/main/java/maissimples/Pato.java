@@ -8,7 +8,7 @@ package maissimples;
  *
  * @author aluno
  */
-public class Pato {
+class Pato {
     String nome;
     String cor;
     String comportamento;
@@ -16,4 +16,17 @@ public class Pato {
     String classe;
     
     
+    
+    public void Coar(String sexo){
+    if(sexo == "Masculino"){
+    System.out.println("Quack sou macho");
+        }
+    else if (sexo == "Feminino"){
+    System.out.println("Qui qui qui, sou Femea");
+    }
+    else{
+    System.out.println("O Pato não existe");
+    }
+    
+    }
 }
