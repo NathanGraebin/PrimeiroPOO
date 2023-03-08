@@ -21,13 +21,16 @@ public class Animal {
         Pato1.comportamento = ("Calmo");
         Pato1.sexo = ("Masculino");
         Pato1.classe = ("Aves");
+        Pato1.Coar(Pato1.sexo);
+        
         
         Pato Pato2 = new Pato();
         Pato2.nome = ("Jonas");
         Pato2.cor = ("Preto");
         Pato2.comportamento = ("Passivo");
-        Pato2.sexo = ("Masculino");
+        Pato2.sexo = ("Feminino");
         Pato2.classe = ("Aves");
+        Pato2.Coar(Pato2.sexo);
         
         Pato Pato3 = new Pato();
         Pato3.nome = ("Psiu");
@@ -35,6 +38,7 @@ public class Animal {
         Pato3.comportamento = ("Bravo");
         Pato3.sexo = ("Feminino");
         Pato3.classe = ("Aves");
+        Pato3.Coar(Pato3.sexo);
         
         Pato Pato4 = new Pato();
         Pato4.nome = ("Faiado");
@@ -42,6 +46,8 @@ public class Animal {
         Pato4.comportamento = ("Agressivo");
         Pato4.sexo = ("Masculino");
         Pato4.classe = ("Aves");
+        Pato4.Coar(Pato4.sexo);
+        
         
         Pato Pato5 = new Pato();
         Pato5.nome = ("Mimizento");
@@ -49,6 +55,10 @@ public class Animal {
         Pato5.comportamento = ("Agressivo");
         Pato5.sexo = ("Masculino");
         Pato5.classe = ("Aves");
+        Pato5.Coar(Pato5.sexo);
+        
+        
+        
     }
     
 }
